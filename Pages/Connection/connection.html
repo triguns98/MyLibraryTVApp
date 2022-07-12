@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Connection</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="../../Global/Styles/styles.css">
+</head>
+
+<script src="http://code.jquery.com/jquery-1.11.0.min.js" charset="utf-8"></script>
+<script src="./connection.js" charset="utf-8"></script>
+
+<body id="main" class="background">
+	<div id="loadingMsg" class="centered visible">
+		<h1>Trying to connect to local server...</h1>
+		<p>Please check if you run the local server on your pc!</p>
+		<img src="../../Global/Images/loading.png">
+	</div>
+</body>
+
+<template id="errorMsgTemplate">
+	<div id="errorMsg" class="centered invisible">
+		<h1>Connection to local server has failed!</h1>
+		<p>Please check if you run the local server on your pc!</p>
+		<img src="../../Global/Images/ghost.png">
+	</div>
+</template>
+
+</html>

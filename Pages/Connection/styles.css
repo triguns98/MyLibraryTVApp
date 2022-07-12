@@ -1,0 +1,18 @@
+.background {
+    background: rgb(251,164,0);
+    background: linear-gradient(0deg, rgba(251,164,0,1) 0%, rgba(255,119,0,1) 100%);
+}
+
+img {
+    margin-top: 20px;
+    color: white;
+    opacity: .8;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
