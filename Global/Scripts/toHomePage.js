@@ -1,1 +1,1 @@
-window.location.href = "./Pages/Connection/connection.html"
+window.location.href = 'pages/connection/connection.html'
